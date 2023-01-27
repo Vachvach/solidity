@@ -1,0 +1,480 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "name": "foo2",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x6080604052348015600f57600080fd5b50606580601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c806305f1e05f14602d575b600080fd5b00fea2646970667358221220123c565897ac7eefb05d7bb449b3d8a01fd8f1ffbcf1fbb54b3f72d879f4604864736f6c63430008110033",
+    "sourceMap": "477:71:16:-:0;;;;;;;;;;;;;;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c806305f1e05f14602d575b600080fd5b00fea2646970667358221220123c565897ac7eefb05d7bb449b3d8a01fd8f1ffbcf1fbb54b3f72d879f4604864736f6c63430008110033",
+    "sourceMap": "477:71:16:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;504:42;",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "foo2()": "05f1e05f"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"foo2\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/OOP.sol\":\"OOP1\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/OOP.sol\":{\"keccak256\":\"0x1f4e128c3f99cd58ab4d8814c828cfd5dfe1e3e593ddc4d9f59d5f3e80dd7da4\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://e25b346c2f99b6db947a5e386b5cd05e56512f828b6ac74081935d607d897428\",\"dweb:/ipfs/QmQUajqKHefL3VJJ4dks8mAoXXb7d1PMtdPahMbo3JDdjZ\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "foo2"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/OOP.sol": "OOP1"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/OOP.sol": {
+        "keccak256": "0x1f4e128c3f99cd58ab4d8814c828cfd5dfe1e3e593ddc4d9f59d5f3e80dd7da4",
+        "urls": [
+          "bzz-raw://e25b346c2f99b6db947a5e386b5cd05e56512f828b6ac74081935d607d897428",
+          "dweb:/ipfs/QmQUajqKHefL3VJJ4dks8mAoXXb7d1PMtdPahMbo3JDdjZ"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/OOP.sol",
+    "id": 24931,
+    "exportedSymbols": {
+      "AOOP": [
+        24913
+      ],
+      "IOOP": [
+        24901
+      ],
+      "OOP": [
+        24922
+      ],
+      "OOP1": [
+        24930
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:510:16",
+    "nodes": [
+      {
+        "id": 24897,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:16",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 24901,
+        "nodeType": "ContractDefinition",
+        "src": "66:69:16",
+        "nodes": [
+          {
+            "id": 24900,
+            "nodeType": "FunctionDefinition",
+            "src": "109:24:16",
+            "nodes": [],
+            "functionSelector": "4b3df200",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "boo",
+            "nameLocation": "118:3:16",
+            "parameters": {
+              "id": 24898,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "121:2:16"
+            },
+            "returnParameters": {
+              "id": 24899,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "132:0:16"
+            },
+            "scope": 24901,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IOOP",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          24901
+        ],
+        "name": "IOOP",
+        "nameLocation": "76:4:16",
+        "scope": 24931,
+        "usedErrors": []
+      },
+      {
+        "id": 24913,
+        "nodeType": "ContractDefinition",
+        "src": "137:146:16",
+        "nodes": [
+          {
+            "id": 24904,
+            "nodeType": "VariableDeclaration",
+            "src": "166:27:16",
+            "nodes": [],
+            "constant": false,
+            "functionSelector": "8381f58a",
+            "mutability": "mutable",
+            "name": "number",
+            "nameLocation": "181:6:16",
+            "scope": 24913,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 24902,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "166:7:16",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "31303030",
+              "id": 24903,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "189:4:16",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_1000_by_1",
+                "typeString": "int_const 1000"
+              },
+              "value": "1000"
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 24912,
+            "nodeType": "FunctionDefinition",
+            "src": "200:81:16",
+            "nodes": [],
+            "body": {
+              "id": 24911,
+              "nodeType": "Block",
+              "src": "251:30:16",
+              "nodes": [],
+              "statements": [
+                {
+                  "expression": {
+                    "id": 24909,
+                    "name": "number",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 24904,
+                    "src": "268:6:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 24908,
+                  "id": 24910,
+                  "nodeType": "Return",
+                  "src": "261:13:16"
+                }
+              ]
+            },
+            "functionSelector": "95ae7169",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "viewnumber",
+            "nameLocation": "209:10:16",
+            "parameters": {
+              "id": 24905,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "219:2:16"
+            },
+            "returnParameters": {
+              "id": 24908,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24907,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24912,
+                  "src": "242:7:16",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 24906,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "242:7:16",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "241:9:16"
+            },
+            "scope": 24913,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": true,
+        "baseContracts": [],
+        "canonicalName": "AOOP",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          24913
+        ],
+        "name": "AOOP",
+        "nameLocation": "155:4:16",
+        "scope": 24931,
+        "usedErrors": []
+      },
+      {
+        "id": 24922,
+        "nodeType": "ContractDefinition",
+        "src": "285:190:16",
+        "nodes": [
+          {
+            "id": 24917,
+            "nodeType": "FunctionDefinition",
+            "src": "324:80:16",
+            "nodes": [],
+            "body": {
+              "id": 24916,
+              "nodeType": "Block",
+              "src": "356:48:16",
+              "nodes": [],
+              "statements": []
+            },
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo1",
+            "nameLocation": "333:4:16",
+            "parameters": {
+              "id": 24914,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "337:2:16"
+            },
+            "returnParameters": {
+              "id": 24915,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "356:0:16"
+            },
+            "scope": 24922,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "internal"
+          },
+          {
+            "id": 24921,
+            "nodeType": "FunctionDefinition",
+            "src": "410:63:16",
+            "nodes": [],
+            "body": {
+              "id": 24920,
+              "nodeType": "Block",
+              "src": "443:30:16",
+              "nodes": [],
+              "statements": []
+            },
+            "functionSelector": "05f1e05f",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo2",
+            "nameLocation": "419:4:16",
+            "parameters": {
+              "id": 24918,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "423:2:16"
+            },
+            "returnParameters": {
+              "id": 24919,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "443:0:16"
+            },
+            "scope": 24922,
+            "stateMutability": "nonpayable",
+            "virtual": true,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "OOP",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          24922
+        ],
+        "name": "OOP",
+        "nameLocation": "294:3:16",
+        "scope": 24931,
+        "usedErrors": []
+      },
+      {
+        "id": 24930,
+        "nodeType": "ContractDefinition",
+        "src": "477:71:16",
+        "nodes": [
+          {
+            "id": 24929,
+            "nodeType": "FunctionDefinition",
+            "src": "504:42:16",
+            "nodes": [],
+            "body": {
+              "id": 24928,
+              "nodeType": "Block",
+              "src": "538:8:16",
+              "nodes": [],
+              "statements": []
+            },
+            "baseFunctions": [
+              24921
+            ],
+            "functionSelector": "05f1e05f",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "foo2",
+            "nameLocation": "513:4:16",
+            "overrides": {
+              "id": 24926,
+              "nodeType": "OverrideSpecifier",
+              "overrides": [],
+              "src": "529:8:16"
+            },
+            "parameters": {
+              "id": 24925,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "517:2:16"
+            },
+            "returnParameters": {
+              "id": 24927,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "538:0:16"
+            },
+            "scope": 24930,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [
+          {
+            "baseName": {
+              "id": 24923,
+              "name": "OOP",
+              "nameLocations": [
+                "494:3:16"
+              ],
+              "nodeType": "IdentifierPath",
+              "referencedDeclaration": 24922,
+              "src": "494:3:16"
+            },
+            "id": 24924,
+            "nodeType": "InheritanceSpecifier",
+            "src": "494:3:16"
+          }
+        ],
+        "canonicalName": "OOP1",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          24930,
+          24922
+        ],
+        "name": "OOP1",
+        "nameLocation": "486:4:16",
+        "scope": 24931,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 16
+}

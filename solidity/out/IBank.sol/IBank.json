@@ -1,0 +1,422 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "lock",
+      "outputs": [],
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "unlock",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "sourceMap": "",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "lock(uint256)": "dd467064",
+    "unlock(uint256)": "6198e339"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"lock\",\"outputs\":[],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"unlock\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/interfaces/IBank.sol\":\"IBank\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":ds-test/=lib/forge-std/lib/ds-test/src/\",\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/interfaces/IBank.sol\":{\"keccak256\":\"0x25c52fc9784c017635d0515744851412dd224413fde54cc72f7af74256288025\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://5817a75fb4f1a80bdc3159358ec07a528793b63715f61a8c202a13ae9b697125\",\"dweb:/ipfs/QmWcRReeSsjV4iW3nS93wt1UpnmF95fTK2EoNK2tbnMF4T\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.17+commit.8df45f5f"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "function",
+          "name": "lock"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function",
+          "name": "unlock"
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":ds-test/=lib/forge-std/lib/ds-test/src/",
+        ":forge-std/=lib/forge-std/src/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "src/interfaces/IBank.sol": "IBank"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "src/interfaces/IBank.sol": {
+        "keccak256": "0x25c52fc9784c017635d0515744851412dd224413fde54cc72f7af74256288025",
+        "urls": [
+          "bzz-raw://5817a75fb4f1a80bdc3159358ec07a528793b63715f61a8c202a13ae9b697125",
+          "dweb:/ipfs/QmWcRReeSsjV4iW3nS93wt1UpnmF95fTK2EoNK2tbnMF4T"
+        ],
+        "license": "UNLICENSED"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "src/interfaces/IBank.sol",
+    "id": 24956,
+    "exportedSymbols": {
+      "IBank": [
+        24955
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:308:17",
+    "nodes": [
+      {
+        "id": 24932,
+        "nodeType": "PragmaDirective",
+        "src": "39:24:17",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".13"
+        ]
+      },
+      {
+        "id": 24955,
+        "nodeType": "ContractDefinition",
+        "src": "65:282:17",
+        "nodes": [
+          {
+            "id": 24941,
+            "nodeType": "StructDefinition",
+            "src": "87:120:17",
+            "nodes": [],
+            "canonicalName": "IBank.Lock",
+            "members": [
+              {
+                "constant": false,
+                "id": 24934,
+                "mutability": "mutable",
+                "name": "balance",
+                "nameLocation": "117:7:17",
+                "nodeType": "VariableDeclaration",
+                "scope": 24941,
+                "src": "109:15:17",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 24933,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "109:7:17",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 24936,
+                "mutability": "mutable",
+                "name": "lockDate",
+                "nameLocation": "142:8:17",
+                "nodeType": "VariableDeclaration",
+                "scope": 24941,
+                "src": "134:16:17",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 24935,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "134:7:17",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 24938,
+                "mutability": "mutable",
+                "name": "unlockDate",
+                "nameLocation": "168:10:17",
+                "nodeType": "VariableDeclaration",
+                "scope": 24941,
+                "src": "160:18:17",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 24937,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "160:7:17",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 24940,
+                "mutability": "mutable",
+                "name": "isValid",
+                "nameLocation": "193:7:17",
+                "nodeType": "VariableDeclaration",
+                "scope": 24941,
+                "src": "188:12:17",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bool",
+                  "typeString": "bool"
+                },
+                "typeName": {
+                  "id": 24939,
+                  "name": "bool",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "188:4:17",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Lock",
+            "nameLocation": "94:4:17",
+            "scope": 24955,
+            "visibility": "public"
+          },
+          {
+            "id": 24944,
+            "nodeType": "EnumDefinition",
+            "src": "213:47:17",
+            "nodes": [],
+            "canonicalName": "IBank.State",
+            "members": [
+              {
+                "id": 24942,
+                "name": "LOCK",
+                "nameLocation": "234:4:17",
+                "nodeType": "EnumValue",
+                "src": "234:4:17"
+              },
+              {
+                "id": 24943,
+                "name": "UNLOCK",
+                "nameLocation": "248:6:17",
+                "nodeType": "EnumValue",
+                "src": "248:6:17"
+              }
+            ],
+            "name": "State",
+            "nameLocation": "218:5:17"
+          },
+          {
+            "id": 24949,
+            "nodeType": "FunctionDefinition",
+            "src": "266:40:17",
+            "nodes": [],
+            "functionSelector": "dd467064",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "lock",
+            "nameLocation": "275:4:17",
+            "parameters": {
+              "id": 24947,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24946,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24949,
+                  "src": "280:7:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 24945,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "280:7:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "279:9:17"
+            },
+            "returnParameters": {
+              "id": 24948,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "305:0:17"
+            },
+            "scope": 24955,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "id": 24954,
+            "nodeType": "FunctionDefinition",
+            "src": "311:34:17",
+            "nodes": [],
+            "functionSelector": "6198e339",
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "unlock",
+            "nameLocation": "320:6:17",
+            "parameters": {
+              "id": 24952,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 24951,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 24954,
+                  "src": "327:7:17",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 24950,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "327:7:17",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "326:9:17"
+            },
+            "returnParameters": {
+              "id": 24953,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "344:0:17"
+            },
+            "scope": 24955,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IBank",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "linearizedBaseContracts": [
+          24955
+        ],
+        "name": "IBank",
+        "nameLocation": "75:5:17",
+        "scope": 24956,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 17
+}
